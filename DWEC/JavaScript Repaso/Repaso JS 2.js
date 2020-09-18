@@ -1,4 +1,4 @@
-function anadirElemento(){
+const  anadirElemento = () =>{
 
     let miLista = document.getElementById("lista");
     let miPos = parseInt(document.getElementById("posicion").value);
@@ -10,7 +10,7 @@ function anadirElemento(){
     miLista.insertBefore(miPunto, elementoAnadir);
 }
 
-function borrarElemento(){
+const borrarElemento = () =>{
 
     let Lista = document.getElementById("lista");
     let Pos = parseInt(document.getElementById("posicion").value);
