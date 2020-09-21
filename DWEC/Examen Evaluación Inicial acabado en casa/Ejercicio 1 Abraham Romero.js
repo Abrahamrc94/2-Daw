@@ -9,9 +9,9 @@ const inicializar = () =>{
         }
         nombres[i]=nombreEscrito;
     }
+    nombres.sort();
 
     for(i=0; i<nombres.length; i++){
-        console.log(nombres[i].charAt(0).toUpperCase());
+        console.log(nombres[i].charAt(0).toUpperCase()+nombres[i].slice(1));
     }
-    console.log(nombres.toString());
 }
