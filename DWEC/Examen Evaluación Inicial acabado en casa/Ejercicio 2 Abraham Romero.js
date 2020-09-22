@@ -67,7 +67,7 @@ const anadir = () =>{
 const borrar = () =>{
     
     //Pido el dni primero para comprobar si el empleado existe ya o no
-    let dniBorrar=prompt("Introduce el dni del nuevo empleado");
+    let dniBorrar=prompt("Introduce el dni del empleado");
     //En este caso en vez de una varible de tipo boolean vamos a usar una númerica ya que tambíen nos hará falta saber la posición del empleado en la tabla
     let posicion=-1;
     //Voy a recuperar la tabla para ver sus datos
@@ -91,10 +91,11 @@ const borrar = () =>{
     if(posicion==-1){
         alert("El dni introducido no es correcto, no existe ningún empleado con ese dni")
     }else{
+        document.getElementById("tablaEmpleados").deleteRow(posicion);
         //Obtenemos la fila 
-        let filaBorrar = tablaEmpleados.getElementsByTagName("tr")[posicion]
+        //let filaBorrar = tablaEmpleados.getElementsByTagName("tr")[posicion];
         // Eliminamos la fila seleccionada
-        filaBorrar.parentNode.removeChild(filaBorrar);
+        //filaBorrar.parentNode.removeChild(filaBorrar);
     }   
 }
 
