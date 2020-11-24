@@ -1,0 +1,42 @@
+.verde {
+    background-color: #00FF00;
+    height: 33px;
+    border: 1px solid black;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+
+.rojo {
+    background-color: #FF0000;
+    border: 1px solid black;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    margin-right: 2px;
+}
+
+.morado {
+    background-color: #FF00FF;
+    height: 30px;
+    width: 100px;
+    border: 1px solid black;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+
+.naranja {
+    background-color: #FF9955;
+    height: 330px;
+    width: 100px;
+    border: 1px solid black;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+
+.azul {
+    background-color: #0000FF;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
