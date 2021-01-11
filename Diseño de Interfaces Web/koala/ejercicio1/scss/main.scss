@@ -1,0 +1,43 @@
+$colorBody: #010101;
+$texto: sans-serif;
+$tamañoTexto: 18px arial;
+$colorHeaderFooter: yellow;
+$tamañoHeight: 50px;
+$colorMain: cyan;
+$margin: 0 60px;
+
+body {
+  color: $colorBody;
+  display: flex;
+  font: $tamañoTexto, $texto;
+  flex-direction: column;
+  margin: 0;
+  min-height: 100vh;
+}
+.wrapper {
+  margin: $margin;
+}
+.header {
+  background: $colorHeaderFooter; 
+  height: $tamañoHeight;
+  padding: 10px 0;
+  box-sizing: border-box;
+}
+.main {
+  background: $colorMain;
+  flex: 1;
+}
+.main__title {
+  color: #fff;
+  font-size: 2.5em;
+}
+.main__content p {
+  font-size: 1.1em;
+  line-height: 140%;
+}
+.footer {
+  background: $colorHeaderFooter;
+  height: $tamañoHeight;
+  padding: 10px 0;
+  box-sizing: border-box;
+}

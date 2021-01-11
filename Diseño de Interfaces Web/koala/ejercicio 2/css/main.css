@@ -1,0 +1,36 @@
+body {
+  color: #010101;
+  display: flex;
+  font: 18px arial, sans-serif;
+  flex-direction: column;
+  margin: 0;
+  min-height: 100vh; }
+
+.wrapper {
+  margin: 0 60px; }
+
+.header {
+  background: yellow;
+  height: 50px;
+  padding: 10px 0;
+  box-sizing: border-box; }
+
+.main {
+  background: cyan;
+  flex: 1; }
+
+.main__title {
+  color: #fff;
+  font-size: 2.5em; }
+
+.main__content p {
+  font-size: 1.1em;
+  line-height: 140%; }
+
+.footer {
+  background: yellow;
+  height: 50px;
+  padding: 10px 0;
+  box-sizing: border-box; }
+
+/*# sourceMappingURL=main.css.map */
