@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap');
+
+$anchoMaximo: 1400px;
+$texto: url;
+$textoAlternativo: sans-serif;
+$centrado: 0 auto;
+$tamanoTexto: 1rem;
+$pesoTexto: 400;
+$pesoTextoTitulares: 700;
+$fontText: 'Nunito', sans-serif;
+
+
+html{
+    font-family: $fontText;
+}
+
+body {
+    display: flex;
+    font: $tamanoTexto, $pesoTexto;
+    margin: $centrado;
+    max-width: $anchoMaximo;    
+}
+
+h1{
+    font-weight: $pesoTextoTitulares;
+    font-size: $tamanoTexto*4;
+}
+
+h2{
+    font-weight: $pesoTextoTitulares;
+    font-size: $tamanoTexto*2;
+}
+
+h3{
+    font-weight: $pesoTextoTitulares;
+    font-size: $tamanoTexto*1.5;
+}
+
